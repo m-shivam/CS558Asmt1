@@ -1,5 +1,6 @@
-#include <bits/stdc++.h>
+/*______author: Shivam Maurya_______*/
 
+#include <bits/stdc++.h>
 #include <iostream>
 #include <string>
 #include <unistd.h>
@@ -75,7 +76,6 @@ vector<string> getArgs(string cmd){
 		}
 	}
 	if(!flag && tmp!=""){
-		//cout<<i<<" "<<tmp<<endl;
 		args.push_back(tmp);
 	}
 	return args;
